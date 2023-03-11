@@ -1,0 +1,65 @@
+
+
+*{
+  font-family: consolas;
+}
+
+/*applies to the body tag*/
+
+body {
+  font-size: 120%;
+  background: #f1dcfe;
+
+  /*make a picture BG*/
+  background-image: url('BG.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+th, td {
+    padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+	vertical-align: middle;
+  border: 2px solid #8969d0;
+}
+
+thead {
+  background-color: white;
+  color: #8969d0;
+  font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+
+
+caption {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color:  #8969d0;
+  margin-bottom: 16px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ecb3ff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e6ccff;
+}
+
+.titleT {
+
+  color: white;
+  background: #8a50d9;
+  text-align: left;
+  border: 2px solid #8969d0;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}

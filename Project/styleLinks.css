@@ -1,0 +1,29 @@
+
+.linky {
+
+  margin: auto;
+
+}
+
+.linky a {
+
+  color: #FF0099;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+.linky a:visited{
+  color: #A26389;
+}
+
+.linky a:hover {
+
+  color: #FF00F9;
+}
+
+.linky a:active {
+
+  color: #AD00FF;
+}

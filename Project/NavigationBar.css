@@ -1,0 +1,30 @@
+/*TOP NAVIGATION BAR*/
+.topnav {
+
+  width: 70%;
+  margin: 8% auto 0px;
+  overflow: hidden;
+  background-color: #32113f;
+  border-bottom : 2px solid #1d1725;
+
+}
+
+.topnav a {
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #7020d6;
+  color: white;
+}

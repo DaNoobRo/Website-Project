@@ -1,0 +1,21 @@
+/*ERRORS*/
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+/*SUCCES*/
+
+.success {
+  color: #30dd8b;
+  background: #d8f0e5;
+  border: 1px solid #3c7665;
+  margin-bottom: 20px;
+ }

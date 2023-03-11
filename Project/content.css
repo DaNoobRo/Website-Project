@@ -1,0 +1,31 @@
+
+*{
+  font-family: consolas;
+}
+
+/*applies to the body tag*/
+
+body {
+  font-size: 120%;
+  background: #f1dcfe;
+
+  /*make a picture BG*/
+  background-image: url('BG.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+.scrisu{
+  width: 70%;
+  margin: 70px auto 0px;
+  color: #321741;
+  background: white;
+  text-align: left;
+  border: 2px solid #8969d0;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
